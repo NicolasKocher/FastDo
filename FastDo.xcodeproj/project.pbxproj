@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		267A67242E5CD15500BD1ED2 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 267A67232E5CD15500BD1ED2 /* KeyboardShortcuts */; };
+		267A67272E5CD16700BD1ED2 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 267A67262E5CD16700BD1ED2 /* LaunchAtLogin */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		26B3A1CD2E5CCAE70044E43D /* FastDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267A67272E5CD16700BD1ED2 /* LaunchAtLogin in Frameworks */,
+				267A67242E5CD15500BD1ED2 /* KeyboardShortcuts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +72,8 @@
 			);
 			name = FastDo;
 			packageProductDependencies = (
+				267A67232E5CD15500BD1ED2 /* KeyboardShortcuts */,
+				267A67262E5CD16700BD1ED2 /* LaunchAtLogin */,
 			);
 			productName = FastDo;
 			productReference = 26B3A1CD2E5CCAE70044E43D /* FastDo.app */;
@@ -94,6 +103,10 @@
 			);
 			mainGroup = 26B3A1C42E5CCAE70044E43D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				267A67222E5CD15500BD1ED2 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+				267A67252E5CD16700BD1ED2 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 26B3A1CE2E5CCAE70044E43D /* Products */;
 			projectDirPath = "";
@@ -321,6 +334,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		267A67222E5CD15500BD1ED2 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+		267A67252E5CD16700BD1ED2 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		267A67232E5CD15500BD1ED2 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 267A67222E5CD15500BD1ED2 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+		267A67262E5CD16700BD1ED2 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 267A67252E5CD16700BD1ED2 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 26B3A1C52E5CCAE70044E43D /* Project object */;
 }

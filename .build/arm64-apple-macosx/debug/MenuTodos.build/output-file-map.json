@@ -1,0 +1,33 @@
+{
+  "": {
+    "swift-dependencies": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/master.swiftdeps"
+  },
+  "/Users/nicolaskocher/MyProjects/FastDo/ContentView.swift": {
+    "dependencies": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/ContentView.d",
+    "object": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/ContentView.swift.o",
+    "swiftmodule": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/ContentView.dia"
+  },
+  "/Users/nicolaskocher/MyProjects/FastDo/MenuTodosApp.swift": {
+    "dependencies": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/MenuTodosApp.d",
+    "object": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/MenuTodosApp.swift.o",
+    "swiftmodule": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/MenuTodosApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/MenuTodosApp.swiftdeps",
+    "diagnostics": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/MenuTodosApp.dia"
+  },
+  "/Users/nicolaskocher/MyProjects/FastDo/Todo.swift": {
+    "dependencies": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/Todo.d",
+    "object": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/Todo.swift.o",
+    "swiftmodule": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/Todo~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/Todo.swiftdeps",
+    "diagnostics": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/Todo.dia"
+  },
+  "/Users/nicolaskocher/MyProjects/FastDo/TodoStore.swift": {
+    "dependencies": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/TodoStore.d",
+    "object": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/TodoStore.swift.o",
+    "swiftmodule": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/TodoStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/TodoStore.swiftdeps",
+    "diagnostics": "/Users/nicolaskocher/MyProjects/FastDo/.build/arm64-apple-macosx/debug/MenuTodos.build/TodoStore.dia"
+  }
+}
